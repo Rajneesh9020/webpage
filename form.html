@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body class="body">
+    <form action="" class="form">
+        <h1 style="text-align: center; color: rgb(93, 96, 180); margin-top: 2vh;">Payment Form</h1>
+        <p class="required">Required field by * </p>
+        <h2 style="text-align: center;">Contact Information</h2>
+        <p>Name:* <input type="text" class="name" placeholder="Name" name="name" required></p>
+        <p>Mobile Number* <input type="number" class="name" placeholder="Mobile number" required></p>
+        <fieldset class="gender">
+            <legend >Gender*</legend>
+            <input type="radio" required class="male">Male
+            <input type="radio" class="male">Female
+            <input type="radio" class="male">Transgender
+        </fieldset>
+        <p>Address:* <textarea name="Address" cols="100" rows="1" class="name" required></textarea> </p>
+        <p>Email <input type="email" class="name" name="email"></p>
+        <p>Pincode <input type="number"class=name name="pincode"></p>
+        <h2 style="text-align: center;">Payment Information</h2>
+        <p>Online Payment <input type="checkbox" class="male"></p>
+        <p>Ofline Payment <input type="checkbox" class="male"></p>
+        <p>Card Type:*
+            <select name="card_type" class="" required>
+                <option class="name" value="">--Select A Card Type--</option>
+                <option value="visa">Visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="master card">Master Card</option>
+                <option value="other">Other</option>
+            </select>
+        </p> 
+            <p>Card Number* <input type="number" required></p>
+            <p>Expiration Date* <input type="date" required></p>
+            <p>Cvv* <input type="password"></p>
+            <input type="reset">
+            <input type="submit">
+
+    </form>
+</body>
+</html>
