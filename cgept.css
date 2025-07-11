@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    /*background: rgba(50, 96, 100, 0.779);*/
+}
+.form{
+
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 900px;
+    height: 80vh;
+    width: 45vh;
+    padding: 4vh;
+    padding-top: 1vh;
+    /*background: rgb(194, 140, 140);*/
+    background: rgb(202, 146, 196);
+    border-radius: 3px;
+    border: 3px blue;
+    
+
+}
+.email{
+    height: 25px;
+    width: 37vh;
+    border: none;
+    border-radius: 2px;
+}
+.email:hover{
+ border: none;   
+}
+.button{
+    height: 30px;
+    width: 75px;
+    font-size: bold;
+    font-size: medium;
+    background: rgb(28, 28, 228);
+    border: none;
+    color: antiquewhite;
+    border-radius: 4px;
+}
+.create{
+    height: 30px;
+    width: 130px;
+    background: rgb(99, 99, 99);
+    font-size: medium;
+    color: antiquewhite;
+    border: none;
+    border-radius: 4px;
+}
+.img{
+    justify-content: center;
+    /*margin-left: 65px;*/
+    margin: auto;
+    text-align: center;
+    height: 175px;
+    width: 175px;
+    filter: drop-shadow(0px 5px 5px #32596a);
+    border-radius: 50%;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+
+}
