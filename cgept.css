@@ -6,6 +6,8 @@ body{
 body{
     align-items: center;
     /*background: rgba(50, 96, 100, 0.779);*/
+    background-image: url(bg.jpg);
+    background-size: cover;
 }
 .form{
 
